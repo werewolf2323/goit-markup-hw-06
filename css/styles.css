@@ -129,6 +129,7 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: var(--pressed-state);
+  transition: 150ms linear;
 }
 .header-link:hover:after,
 .header-link:focus:after,
@@ -615,7 +616,7 @@ img {
 }
 
 .is-hidden {
-  visibility: hidden;
+  visibility: none;
   opacity: 0;
   pointer-events: none;
 }
@@ -665,4 +666,18 @@ img {
 
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.modal-form {
+}
+
+.modal-input {
 }
