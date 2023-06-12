@@ -489,16 +489,13 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--acent-color);
+  color: var(--header-backround);
   margin-left: 80px;
   margin-bottom: 16px;
 }
 
 .footer-form {
   display: flex;
-}
-
-.footer-label {
   gap: 24px;
 }
 
@@ -509,7 +506,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  border: 1px solid var(--acent-color);
+  border: 1px solid var(--header-backround);
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
